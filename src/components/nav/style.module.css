@@ -1,0 +1,31 @@
+.container {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #0C0B0E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+}
+.container a {
+    color: white;
+    font-weight: 500;
+}
+.container a:hover {
+    color: #12FCB6;
+}
+.container div {
+    min-width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

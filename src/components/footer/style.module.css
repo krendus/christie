@@ -1,0 +1,43 @@
+.container {
+    background: #000;
+    padding: 30px;
+}
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+}
+.container a {
+    color: white;
+    font-weight: 500;
+}
+.container a:hover {
+    color: #12FCB6;
+}
+.contact {
+    border-bottom: 1px solid #FFFFFF;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #FFFFFF;
+}
+.contact p {
+    line-height: 150%;
+    color: #909090;
+}
+.contact a {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+.contact a img {
+    margin-left: 15px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.bottom a {
+    margin-right: 10px;
+}
